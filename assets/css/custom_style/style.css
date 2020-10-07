@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* You can write you css code here */
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.container-fluid,
+.row,
+.col-lg-12,
+.col-md-12 {
+  padding: 0pt;
+  margin: 0pt;
+}
+
+p {
+  font-size: 11pt;
+}
+
+
+#top-menu{
+  background-color: #2b2e34;
+  /* color: white;  */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+}
+ .margin-nag-10{
+  margin: -10px;
+ }
+
+ #hero{
+   /* max-width: 100vw; */
+   background-image: url(../../images/hero.jpg);
+   background-repeat: no-repeat;
+   margin-top: -8px;
+   height: 80vh;
+   background-size: cover;
+   background-position: center;
+ }
+
+ #hero .heading-container{
+  padding-top: 25vh;
+ }
+
+ .icon-postion{
+  position: relative;
+  bottom: 14px;
+  margin-right: 20px;
+ }
+
+ .product-banner{
+   background-image: url(../../images/long-dress-1438140_1920.jpg);
+   background-size: 1000px 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+ }
+
+.product-banner > .banner-text{
+  padding: 50% 0;
+  text-align: center;
+  color: white;
+}
+.shoes-banner{
+  background-image: url(../../images/high-heels-1426011_1920.jpg);
+}
+
+ 
+/* .products-list-image{
+  width: 8rem;
+    height: 8rem;
+} */
+.wanted-products-list img{
+  width: 8rem;
+  height: 8rem;
+}
+
+.wanted-products-list span{
+  position: absolute;
+  padding: 0 20px;
+}
